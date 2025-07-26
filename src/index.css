@@ -1,0 +1,93 @@
+.glass-effect {
+  background: rgba(255, 255, 255, 0.1) !important; /* Semi-transparent */
+  backdrop-filter: blur(10px); /* Glass blur */
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  border-radius: 1rem; /* Rounded corners */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  color: #d7d7d7 !important;
+}
+
+.btn-group-vertical > label {
+  background-color: #7fb4c9;
+  color: white;
+}
+
+.main-temp {
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+
+.cloud-loader {
+  height: 50vh;
+  width: 100%;
+}
+
+.cloud {
+  width: 45vh;
+  position: relative;
+  animation: float 1.8s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@media (min-width: 1200px) {
+  .responsive-fs {
+    font-size: 1.5rem; /* same as fs-5 */
+  }
+}
+@media (max-width: 1200) {
+  .responsive-fs {
+    font-size: 1rem; /* same as fs-6 */
+  }
+}
+@media (max-width: 990px) {
+  .responsive-fs {
+    font-size: 1.5rem; /* same as fs-6 */
+  }
+}
+
+@media (max-width: 600px) {
+  .align-items-sm-center {
+    align-items: center !important;
+  }
+  .infoCards {
+    grid-template-columns: 1fr;
+    grid-auto-rows: "minmax(0, 1fr)";
+  }
+}
+@media (max-width: 769px) {
+  .dayInfo {
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: "minmax(0, 1fr)";
+    column-gap: 1.5rem;
+    row-gap: 2rem;
+  }
+}
+.infoCards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.infoCards > * {
+  flex: 1 1 calc(50% - 1rem); /* 2 items per row */
+}
+
+@media (max-width: 768px) {
+  .infoCards > * {
+    flex: 1 1 100%; /* 1 item per row for mobile */
+  }
+}
+
+#logo {
+  font-size: 0.75rem;
+}

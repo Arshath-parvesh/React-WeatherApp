@@ -1,0 +1,21 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "description": "Weather Web page using React js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build index.html"
+  },
+  "keywords": [
+    "Weather"
+  ],
+  "author": "Arshath parvesh",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.5",
+    "bootstrap-icons": "^1.11.3",
+    "parcel": "^2.14.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
