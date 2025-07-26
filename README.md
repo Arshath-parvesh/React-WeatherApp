@@ -1,23 +1,18 @@
-# It is Learning Project
+# Weather App
 
-# Parcel
-- Dev Build
-- Local Server
-- HMR = HOT MODULE REPLACEMENT (Hot reloading)
-- File watching Algorithm - written in C++
-- Caching - Faster Builds
-- Image Optimization
-- Minification
-- Bundling
-- Compress
-- Consistent hashing
-- Code Splitting
-- Differential Bundling - Support Older Browsers
-- Diagnostic
-- Error handling
-- Host in https
-- Different dev and production bundle
+This is a React-based Weather Application that provides current weather updates for a given location.
 
-# openweathermap
-- openweathermap API for fetching the weather data.
-- Fetch the predicted weather data for upcoming 5 days.
+## Features
+- Displays current weather conditions.
+- Search for weather by location.
+- Responsive design for desktop, tablet, and mobile.
+
+## Technologies Used
+- React.js
+- Bootstrap 5
+- Parcel.js
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Arshath-parvesh/React-WeatherApp.git
